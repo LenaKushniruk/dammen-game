@@ -6,4 +6,9 @@
 
 body{
     background: beige;
+    text-align: center; 
+}
+
+h2{
+    font-family: "Italiana", sans-serif;
 }
