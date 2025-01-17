@@ -8,10 +8,13 @@ main {
   justify-content: space-between;
   align-items: center;
   height: 100vh;
+  background: beige;
 }
 
 .timer-container {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 #timer {
@@ -21,22 +24,19 @@ main {
 
 button {
   padding: 10px 20px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: none;
   border-radius: 5px;
   background-color: #007bff;
   color: white;
   cursor: pointer;
+  margin-left: 2rem;
 }
 
 button:hover {
   background-color: #0056b3;
 }
 
-div {
-  display: flex;
-  justify-content: space-between;
-}
 
 .mobile {
   display: none;
